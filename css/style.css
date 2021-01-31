@@ -36,7 +36,8 @@ body {
     box-shadow: none;
 }
 
-input[type='text'] {
+input[type='text'],
+input[type='text']:focus {
     background-color: #3D4153;
     padding: 10px 0px;
     color: #fff;
@@ -46,6 +47,7 @@ input[type='text'] {
     height: 50px;
     padding: 10px;
     font-size: 20px;
+    box-shadow: none;
 }
 
 .numbers {
@@ -91,7 +93,7 @@ input[type='text'] {
     color: #fff;
 }
 
-.submit-btn:focus{
+.submit-btn:focus {
     outline: none;
 }
 
@@ -110,4 +112,9 @@ input[type='text'] {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+}
+
+#pin,
+#typedPin {
+    background: #3D4153;
 }
